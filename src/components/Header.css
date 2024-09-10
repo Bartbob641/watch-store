@@ -1,0 +1,64 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .nav-links a:hover {
+    color: black;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .icon {
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .icon:hover {
+    color: black;
+  }
+  
+  .divider {
+    width: 1px;
+    height: 30px;
+    background-color: #e0e0e0;
+  }
+  
+  .country {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .flag {
+    width: 20px;
+    height: 15px;
+  }
