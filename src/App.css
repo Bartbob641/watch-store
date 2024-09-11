@@ -1,12 +1,72 @@
-.watch-item {
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 20px;
+.App {
   text-align: center;
 }
 
-.watch-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.image-container {
+  width: 100vw; /* Full width of the viewport */
+  margin: 0;    /* Remove default margin */
+}
+
+.main-image {
+  width: 100vw;   /* Make the image span the full width */
+  height: auto;   /* Maintain aspect ratio */
+  display: block; /* Ensure no extra space around the image */
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 20px; /* Adjust how far from the bottom you want it */
+  left: 20px;   /* Adjust how far from the left you want it */
+  color: white; /* Text color */
+  font-size: 24px; /* Adjust the font size */
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 0.5px 0.5px 1px black, -0.5px -0.5px 1px black;
+  
+}
+
+.buy-now-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  background-color: white; /* A stylish red color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: lightgrey; /* Darker red on hover */
+}
+
+/* Scrolling Text */
+.scrolling-text {
+  width: 100vw;
+  background-color: #5d4533;
+  color: white;
+  font-size: 18px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+}
+
+.scrolling-text span {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+  /* Automatically duplicate the content across the width */
+  width: max-content;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%); /* Start off the right side of the screen */
+  }
+  100% {
+    transform: translateX(-100%); /* Move all the way off the left side */
+  }
 }
