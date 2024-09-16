@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/watch-store/static/css/main.f1736d1a.css",
-    "main.js": "/watch-store/static/js/main.fa18159c.js",
+    "main.css": "/watch-store/static/css/main.9e2bca65.css",
+    "main.js": "/watch-store/static/js/main.df5c3bbc.js",
     "static/js/453.ba5b11e2.chunk.js": "/watch-store/static/js/453.ba5b11e2.chunk.js",
     "static/media/image.webp": "/watch-store/static/media/image.0cd707cdfa07bb298ae1.webp",
     "index.html": "/watch-store/index.html",
-    "main.f1736d1a.css.map": "/watch-store/static/css/main.f1736d1a.css.map",
-    "main.fa18159c.js.map": "/watch-store/static/js/main.fa18159c.js.map",
+    "main.9e2bca65.css.map": "/watch-store/static/css/main.9e2bca65.css.map",
+    "main.df5c3bbc.js.map": "/watch-store/static/js/main.df5c3bbc.js.map",
     "453.ba5b11e2.chunk.js.map": "/watch-store/static/js/453.ba5b11e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1736d1a.css",
-    "static/js/main.fa18159c.js"
+    "static/css/main.9e2bca65.css",
+    "static/js/main.df5c3bbc.js"
   ]
 }
