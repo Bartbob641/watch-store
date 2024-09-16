@@ -13,7 +13,7 @@ function App() {
     // Calculate how many times to repeat the text based on the screen width
     const screenWidth = window.innerWidth;
     const textWidth = text.length * 8; // Approximate width of one character
-    const repeatCount = Math.ceil(screenWidth / textWidth) + 2; // +2 for extra repetitions to ensure smooth scrolling
+    const repeatCount = Math.ceil(screenWidth / textWidth) + 20; // +2 for extra repetitions to ensure smooth scrolling
 
     // Create the repeated text with spacing
     const textWithSpace = text + '\u00A0'.repeat(6); // Add non-breaking spaces (~50px width)

@@ -55,17 +55,19 @@
 }
 
 .scrolling-text span {
-  display: inline-block;
+  display: flex;
   white-space: nowrap;
-  padding-right: 100vw; /* Ensure space before repeating */
-  animation: scroll-right 20s linear infinite; /* Adjust the speed of the scroll */
+  /*padding-right: 100vw; /* Ensure space before repeating */
+  animation: scroll-right 40s linear infinite; /* Adjust the speed of the scroll */
 }
 
 @keyframes scroll-right {
   0% {
     transform: translateX(-100%);
+    //left: 0;
   }
   100% {
     transform: translateX(100%);
+    //left: -100%;
   }
 }
